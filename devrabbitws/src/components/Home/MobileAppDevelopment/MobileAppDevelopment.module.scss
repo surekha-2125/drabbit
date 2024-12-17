@@ -1,0 +1,175 @@
+// .bg {
+//   background: #ebe5e5;
+//   //   width: 325px; /* Full width of the container */
+//   display: grid; /* Use CSS Grid */
+//   grid-template-columns: repeat(4, 1fr); /* 2 containers per row by default */
+//   //grid-auto-rows: auto; /* Adjust row height automatically */
+//   // gap: 5; /* Space between containers */
+//   // padding: 5px; /* Add padding around the grid */
+//   justify-content: center; /* Center align the grid horizontally */
+//   align-content: center; /* Center align the grid vertically */
+
+//   gap: 10px;
+//   height:60px;
+//   width:2000px;
+// }
+// .bg {
+//   background-color: white;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .container {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   background-color: #e0e7f9;
+
+//   //width: 130px; /* Width of each container */
+//   //height: 170px; /* Height of each container */
+//   // margin-bottom: 10; /* Remove margin (handled by grid gap) */
+//   border-radius: 20px;
+//   margin-left: 10px;
+// }
+
+// .head {
+//   color: black;
+//   font-weight: bold;
+// }
+// .mainhead {
+//   color: black;
+//   line-height: 140%;
+//   font-family: Readex Pro, sans-serif;
+//   font-weight: bold;
+//   font-size:20px;
+// }
+
+// // .image {
+// //   height: 80px;
+// //   width: 80px;
+// //   border-radius: 10px;
+// // }
+
+//-----------------
+.totalBg {
+  background-color: #e0e7f9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.card {
+  background-color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 600px;
+  padding:50px;
+  padding-top:100px;
+  padding-bottom:100px;
+
+  
+}
+.ourServicesHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.75rem;
+  font-weight: 500;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.bg {
+  // background-color: #ebe5e5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 columns on large screens */
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  padding: 10px; /* Optional padding */
+  margin-left: 70px;
+  margin-bottom: 90px;
+  // background-color: #e0e7f9;
+}
+
+@media (max-width: 1200px) {
+  .bg {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .bg {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .bg {
+    grid-template-columns: 1fr; /* 1 column on extra small screens */
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  height: 200px; /* Fixed height for consistency */
+  width: 200px; /* Fixed width for each card */
+  //box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  // transition: transform 0.3s ease; /* Smooth scale effect */
+  margin-bottom: 15px;
+}
+
+//   .container:hover {
+//     transform: scale(1.05); /* Scale effect on hover */
+//   }
+
+.h1 {
+  color: black;
+  font-weight: 300;
+  font-size: 16px; /* Slightly smaller font */
+}
+
+.mainhead {
+  color: black;
+  line-height: 140%;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 50px;
+  margin-bottom: 10px; /* Space between heading and paragraph */
+}
+.widths{
+  width:200px;
+  text-align: center;
+}
+
+.cardPara {
+  font-size: 14px;
+  text-align: center; /* Center align card text */
+  color: #333; /* Slightly softer color */
+  line-height: 1.5;
+}
+.icon_button {
+  //   margin: 0 1px;
+  color:rgb(199, 112, 199);
+//   background-color: #e0e7f9;
+//   height: 100px;
+//   width: 100px;
+//   border-radius: 50px;
+  //   font-size: 80px;
+  font-size: 40px;
+  &:hover {
+    color: #1877f2;
+  }
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}

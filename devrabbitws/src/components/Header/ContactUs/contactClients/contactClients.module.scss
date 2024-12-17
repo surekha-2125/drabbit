@@ -1,0 +1,57 @@
+.TechPart {
+  background-color: #f7f5ff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    //   padding-left:80px;
+    //   padding-right:30px;
+  }
+  
+  .TechHead {
+    font-family: Readex Pro, sans-serif;
+    font-size: 2.75rem;
+    font-weight: 500;
+    line-height: 120%;
+  }
+  .logo1_component {
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+    flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: center;
+    padding-top: 0.3rem;
+    padding-bottom: 0.7rem;
+    display: flex;
+    padding-left:40px;
+    // padding-right:40px;
+    width:650px;
+    
+  }
+  
+// .TechPart {
+//   background-color: #f7f5ff;
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   padding-top: 60px;
+//   padding-bottom: 100px;
+// }
+
+// .logo1_component {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Make the grid responsive */
+//   gap: 15px;
+//   padding: 0 40px;
+//   max-width: 90%;
+
+// }
+
+// @media (max-width: 600px) {
+//   .logo1_component {
+//     padding: 0 20px;
+//   }
+// }

@@ -1,0 +1,220 @@
+// .Services {
+//     //background-color: #f2f88c;
+//     //background-color: #6b7094;
+//     //   background-color:#b3b6ca;
+//     // background: #dcdff1;
+//     background-color: #e0e7f9;
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+//     padding-top: 30px;
+//     padding-bottom: 80px;
+//     margin-top: 0px;
+//   }
+  
+//   .serviceMainHead {
+//     font-size: 18px;
+//     text-align: center;
+//   }
+//   .ServicesSubHead {
+//     font-size: 18px;
+//     font-weight: bold;
+//   }
+  
+//   .LeftPartHead {
+//     font-size: 30px;
+//   }
+//   .subPart {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     margin-left: 0px;
+//     padding-top: 20px;
+//   }
+//   .leftHead {
+//     font-size: 55px;
+//     width: 700px;
+//   }
+//   .leftPara {
+//     font-size: 20px;
+//     width: 700px;
+//     font: weight 200px;
+//     line-height:1.5;
+//   }
+//   .span {
+//     font-weight: bold;
+//   }
+//   .webTransparentImage {
+//     height: 450px;
+//     width: 500px;
+//     padding-top:20px;
+//   }
+  
+//   .bookDemo {
+//     color: #fff;
+//     text-align: center;
+//     background-color: #5d1eb4;
+//     border-radius: 6px;
+//     padding: 0.75rem 1.5rem;
+//     font-weight: 600;
+//     border: none;
+//   }
+  
+//00000000000000
+.Services {
+  background-color: #e0e7f9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  margin-top: 0px;
+}
+
+.serviceMainHead {
+  font-size: 18px;
+  text-align: center;
+}
+
+.ServicesSubHead {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.LeftPartHead {
+  font-size: 30px;
+}
+
+.subPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 0px;
+  padding-top: 20px;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 20px; /* Space between the image and the text */
+}
+
+.leftHead {
+  font-size: 55px;
+  width: 700px;
+}
+
+.leftPara {
+  font-size: 20px;
+  width: 700px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+.span {
+  font-weight: bold;
+}
+
+.webTransparentImage {
+  height: 450px;
+  width: 500px;
+  padding-top: 20px;
+  object-fit: contain;
+}
+
+.bookDemo {
+  color: #fff;
+  text-align: center;
+  background-color: #5d1eb4;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+
+/* Responsive Design */
+
+/* Large screens (Desktops, wide tablets) */
+@media (max-width: 1200px) {
+  .leftHead {
+    font-size: 48px;
+    width: 650px;
+  }
+
+  .leftPara {
+    font-size: 18px;
+    width: 650px;
+  }
+
+  .webTransparentImage {
+    height: 400px;
+    width: 450px;
+  }
+
+  .bookDemo {
+    padding: 0.75rem 1.25rem;
+    font-size: 16px;
+  }
+}
+
+/* Medium screens (Tablets) */
+@media (max-width: 768px) {
+  .subPart {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .leftHead {
+    font-size: 36px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .leftPara {
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .webTransparentImage {
+    height: 500px;
+    width: 500px;
+    padding-top: 15px;
+  }
+
+  .bookDemo {
+    padding: 0.5rem 1rem;
+    margin-left:50px;
+    font-size: 14px;
+  }
+}
+
+/* Small screens (Mobile) */
+@media (max-width: 480px) {
+  .subPart {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .leftHead {
+    font-size: 28px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .leftPara {
+    font-size: 14px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .webTransparentImage {
+    height: 250px;
+    width: 250px;
+  }
+
+  .bookDemo {
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+  }
+}

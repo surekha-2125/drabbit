@@ -1,0 +1,252 @@
+// .Services {
+//     //background-color: #f2f88c;
+//     //background-color: #6b7094;
+//     //   background-color:#b3b6ca;
+//     // background: #dcdff1;
+//     background-color:#e8effd;
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+//     padding-top: 30px;
+//     padding-bottom: 40px;
+//     margin-top: 0px;
+//     justify-content: space-around;
+//   }
+  
+//   .serviceMainHead {
+//     font-size: 18px;
+//     text-align: center;
+//   }
+//   .ServicesSubHead {
+//     font-size: 18px;
+//     font-weight: bold;
+//   }
+  
+//   .LeftPartHead {
+//     font-size: 25px;
+//   }
+//   .subPart {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     line-height: 0.5;
+//     padding-left:0px;
+//     //   margin-left: 0px;
+//     //   padding-top: 20px;
+//   }
+//   // .right {
+//   //   padding-left: 10px;
+//   // }
+//   .leftHead {
+//     font-size: 30px;
+//     width: 700px;
+//     // padding-top: 70px;
+//     line-height:1.5;
+//   }
+//   .leftPara {
+//     font-size: 25px;
+//     width: 700px;
+//     font: weight 200px;
+//   }
+//   .span {
+//     font-weight: bold;
+//   }
+//   .webTransparentImage {
+//     height: 500px;
+//     width: 650px;
+//     padding-top: 80px;
+//     padding-bottom: 40px;
+//     padding-left: 50px;
+//   }
+  
+//   .bookDemo {
+//     color: #fff;
+//     text-align: center;
+//     background-color: #5d1eb4;
+//     border-radius: 6px;
+//     padding: 0.75rem 1.5rem;
+//     font-weight: 600;
+//     border: none;
+//   }
+//   // .iconsession{
+//   //     display:flex;
+//   //     flex-direction: row;
+//   //   }
+//   .icon_button {
+//     // margin: 0 10px;
+//     color: rgb(14, 14, 94);
+//     font-weight:2px;
+//     margin-top:10px;
+//     background-color:rgb(237, 213, 237);
+//     border-radius: 50px;
+//     // width:20px;
+//     height:20px;
+//     width:30px;
+//     margin-right:15px;
+//     // margin-top:px;
+//     &:hover {
+//       color: #1877f2;
+     
+  
+//     }
+//   }
+//   .text {
+//     display: flex;
+//     flex-direction: row;
+//   }
+
+//0000000000000
+
+.Services {
+  background-color: #e8effd;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-top: 0px;
+  justify-content: space-around;
+  flex-wrap: wrap; // Added to wrap the content on smaller screens
+}
+
+.serviceMainHead {
+  font-size: 18px;
+  text-align: center;
+}
+
+.ServicesSubHead {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.LeftPartHead {
+  font-size: 25px;
+}
+
+.subPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 0.5;
+  padding-left: 0px;
+  margin-left: 0px;
+  flex-wrap: wrap; // Allow wrapping of content on smaller screens
+}
+
+.leftHead {
+  font-size: 30px;
+  width: 700px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.leftPara {
+  font-size: 25px;
+  width: 700px;
+  font-weight: 200;
+}
+
+.span {
+  font-weight: bold;
+}
+
+.webTransparentImage {
+  height: 500px;
+  width: 650px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.bookDemo {
+  color: #fff;
+  text-align: center;
+  background-color: #5d1eb4;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+}
+
+.icon_button {
+  color: rgb(14, 14, 94);
+  font-weight: 2px;
+  margin-top: 10px;
+  background-color: rgb(237, 213, 237);
+  border-radius: 50px;
+  height: 20px;
+  width: 30px;
+  margin-right: 15px;
+
+  &:hover {
+    color: #1877f2;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px; // Added margin to space out the benefits
+}
+
+/* Media Queries for responsiveness */
+
+/* For screens smaller than 768px (Tablets and smaller) */
+@media screen and (max-width: 768px) {
+  .Services {
+    flex-direction: column; /* Stack content vertically */
+    padding: 20px;
+  }
+
+  .webTransparentImage {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    display:none;
+  }
+
+  .subPart {
+    flex-direction: column; /* Stack subcontent vertically */
+    align-items: center; /* Center align the content */
+  }
+
+  .leftHead {
+    width: 100%; /* Make the headings take up full width */
+    font-size: 24px;
+  }
+
+  .icon_button {
+    height: 20px;
+    width: 20px; /* Adjust icon size for smaller screens */
+    margin-right: 10px;
+  }
+
+  .text {
+    margin-left: 0;
+  }
+}
+
+/* For screens smaller than 480px (Mobile phones) */
+@media screen and (max-width: 480px) {
+  .leftHead {
+    font-size: 22px; /* Smaller font size for mobile screens */
+  }
+
+  .webTransparentImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    font-size: 14px; /* Adjust font size of benefits */
+  }
+
+  .icon_button {
+    height: 18px;
+    width: 18px; /* Smaller icon size */
+    margin-right: 8px;
+  }
+}
+
+  

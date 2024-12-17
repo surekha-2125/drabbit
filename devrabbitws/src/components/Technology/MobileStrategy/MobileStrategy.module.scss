@@ -1,0 +1,235 @@
+.Services {
+  background-color: #e0e7f9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 0px;
+  padding-left: 0px;
+  justify-content: space-between;
+  padding: 80px 0; /* Adjust padding for better spacing */
+}
+
+.serviceMainHead {
+  font-size: 18px;
+  text-align: center;
+}
+
+.ServicesSubHead {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.LeftPartHead {
+  font-size: 30px;
+}
+
+.subPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 0px;
+  padding-top: 20px;
+}
+
+.leftHead {
+  font-size: 55px;
+  width: 100%; /* Make the width responsive */
+  max-width: 700px; /* Set a max-width for large screens */
+}
+
+.leftPara {
+  font-size: 20px;
+  width: 100%; /* Make the width responsive */
+  max-width: 650px; /* Set a max-width for large screens */
+  font-weight: 200;
+  color: black;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.span {
+  font-weight: bold;
+}
+
+.webTransparentImage {
+  margin-left: 90px;
+  height: 500px;
+  width: 400px;
+  object-fit: cover; /* Ensure image maintains aspect ratio */
+}
+
+.bookDemo {
+  color: #fff;
+  text-align: center;
+  background-color: #5d1eb4;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.post_actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  border-top: 1px solid #3a3b3c;
+  color: #b0b3b8;
+  font-size: 14px;
+  margin-top: 10px;
+
+  .action {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    .icon {
+      font-size: 20px;
+    }
+
+    &:hover {
+      color: #e4e6eb;
+    }
+  }
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .leftHead {
+    font-size: 50px;
+  }
+
+  .leftPara {
+    font-size: 18px;
+  }
+
+  .webTransparentImage {
+    height: 300px;
+    width: 300px;
+  }
+
+  .bookDemo {
+    padding: 0.75rem 1.25rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .Services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .leftHead {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .leftPara {
+    font-size: 18px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .subPart {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    padding-top: 15px;
+  }
+
+  .webTransparentImage {
+    margin-left: 0;
+    height: 280px;
+    width: 280px;
+  }
+
+  .bookDemo {
+    padding: 0.75rem 1rem;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Services {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .leftHead {
+    font-size: 40px;
+  }
+
+  .leftPara {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .webTransparentImage {
+    height: 250px;
+    width: 250px;
+  }
+
+  .bookDemo {
+    font-size: 14px;
+    padding: 0.75rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .Services {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .leftHead {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .leftPara {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .webTransparentImage {
+    height: 220px;
+    width: 220px;
+  }
+
+  .bookDemo {
+    font-size: 14px;
+    padding: 0.75rem 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .Services {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .leftHead {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .leftPara {
+    font-size: 12px;
+    width: 90%;
+  }
+
+  .webTransparentImage {
+    height: 100px;
+    width: 100px;
+  }
+
+  .bookDemo {
+    font-size: 12px;
+    padding: 0.5rem 1rem;
+  }
+}

@@ -1,0 +1,463 @@
+/* Container for the form */
+
+.contactCard{
+    background-color: #e0ecff;
+    height:90vh;
+    width:40vw;
+    border-radius:20px;
+    margin-left:20px;
+    padding-right:40px;
+}
+.contact-us-form {
+    width: 40%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .head{
+    font-size:22px;
+    padding-top:40px;
+    padding-left:40px;
+    padding-bottom:20px;
+  }
+  .row{
+    display: flex;
+    // margin:10px;
+  }
+  .pair{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    padding-left:40px;
+  }
+  .headings{
+    font-size: 14px;
+    color:black;
+    // padding-top:20px;
+     padding-bottom:10px;
+    // margin-bottom:50px;
+  }
+  .textareaa{
+    height:100px;
+  }
+  
+  /* Heading */
+  .contact-us-form h2 {
+    text-align: center;
+    color: #333;
+  
+  
+  }
+  .inputs{
+    height:38px;
+    width:250px;
+    border-radius: 10px;
+    border:none;
+    margin-right:20px;
+    margin-bottom:20px;
+  }
+  
+  /* Form input and textarea fields */
+  .contact-us-form label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+   
+  }
+  
+  .contact-us-form input,
+  .contact-us-form textarea,
+  .contact-us-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Submit button */
+  .contact-us-form button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-us-form button:hover {
+    background-color: #45a049;
+  }
+  .buttons{
+    background-color: blue;
+    height:38px;
+    width:300px;
+    color:white;
+    border:none;
+    border-radius:10px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:auto;
+    margin-top:20px;
+  }
+
+//--------------
+  
+// .contactCard {
+//   background-color: #e0ecff;
+//   height: auto; /* Allow the form height to adjust based on content */
+//   width: 100%;
+//   max-width: 600px; /* Limit the width on larger screens */
+//   border-radius: 20px;
+//   margin: 30px auto;
+//   padding: 20px;
+// }
+
+// .contact-us-form {
+//   width: 100%;
+//   padding: 20px;
+//   background-color: #fff;
+//   border-radius: 8px;
+//   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+// }
+
+// .head {
+//   font-size: 22px;
+//   padding-top: 40px;
+//   padding-bottom: 20px;
+//   text-align: center;
+// }
+
+// .row {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .pair {
+//   display: flex;
+//   flex-direction: column;
+//   padding: 10px;
+//   width: 100%;
+//   max-width: 300px;
+//   margin: 10px;
+// }
+
+// .headings {
+//   font-size: 14px;
+//   color: black;
+//   padding-bottom: 10px;
+// }
+
+// .inputs {
+//   height: 38px;
+//   width: 100%;
+//   border-radius: 10px;
+//   border: none;
+//   margin-bottom: 20px;
+// }
+
+// .textarea {
+//   height: 100px;
+//   width: 100%;
+// }
+
+// button {
+//   background-color: #4caf50;
+//   width: 100%;
+//   padding: 10px 20px;
+//   color: #fff;
+//   border: none;
+//   border-radius: 4px;
+//   cursor: pointer;
+//   font-size: 16px;
+//   margin-top: 20px;
+// }
+
+// button:hover {
+//   background-color: #45a049;
+// }
+
+// /* Media Queries */
+// @media (max-width: 600px) {
+//   .contactCard {
+//     width: 90%;
+//   }
+
+//   .contact-us-form {
+//     width: 100%;
+//   }
+
+//   .pair {
+//     width: 100%;
+//   }
+  
+//   .inputs {
+//     width: 100%;
+//   }
+// }
+
+/* Container for the form */
+// .contactCard {
+//   background-color: #e0ecff;
+//   height: 90vh;
+//   width: 42vw;
+//   border-radius: 20px;
+//   margin: 30px;
+//   padding-right: 40px;
+// }
+
+// .contact-us-form {
+//   width: 50%;
+//   margin: 50px auto;
+//   padding: 20px;
+//   background-color: #fff;
+//   border-radius: 8px;
+//   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+// }
+
+// .head {
+//   font-size: 22px;
+//   padding-top: 40px;
+//   padding-left: 40px;
+//   padding-bottom: 20px;
+// }
+
+// .row {
+//   display: flex;
+//   flex-wrap: wrap; /* This will allow items to wrap on smaller screens */
+//   justify-content: space-between;
+// }
+
+// .pair {
+//   display: flex;
+//   flex-direction: column;
+//   padding: 10px;
+//   padding-left: 40px;
+//   flex: 1 1 45%; /* This will ensure each input takes up 45% of the row */
+// }
+
+// .headings {
+//   font-size: 14px;
+//   color: black;
+//   padding-bottom: 10px;
+// }
+
+// .textareaa {
+//   height: 100px;
+// }
+
+// /* Heading */
+// .contact-us-form h2 {
+//   text-align: center;
+//   color: #333;
+// }
+
+// /* Inputs */
+// .inputs {
+//   height: 38px;
+//   width: 100%; /* Make inputs take full width of their container */
+//   border-radius: 10px;
+//   border: none;
+//   margin-right: 20px;
+//   margin-bottom: 20px;
+// }
+
+// /* Form input and textarea fields */
+// .contact-us-form label {
+//   font-weight: bold;
+//   color: #555;
+//   display: block;
+//   margin-bottom: 8px;
+// }
+
+// .contact-us-form input,
+// .contact-us-form textarea,
+// .contact-us-form select {
+//   width: 100%;
+//   padding: 10px;
+//   margin-bottom: 15px;
+//   border: 1px solid #ccc;
+//   border-radius: 4px;
+//   font-size: 14px;
+// }
+
+// /* Submit button */
+// .contact-us-form button {
+//   width: 100%;
+//   padding: 10px 20px;
+//   background-color: #4CAF50;
+//   color: #fff;
+//   border: none;
+//   border-radius: 4px;
+//   cursor: pointer;
+//   font-size: 16px;
+// }
+
+// .contact-us-form button:hover {
+//   background-color: #45a049;
+// }
+
+// .buttons {
+//   background-color: blue;
+//   height: 38px;
+//   width: 300px;
+//   color: white;
+//   border: none;
+//   border-radius: 10px;
+//   text-align: center;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin: auto;
+//   margin-top: 20px;
+// }
+
+// /* Media Query for Large Screens (greater than 1024px) */
+// @media (min-width: 1024px) {
+//   .row {
+//       justify-content: space-between;
+//   }
+
+//   .pair {
+//       flex: 1 1 45%; /* Make pairs take 45% width */
+//   }
+// }
+
+////===============
+/// 
+/* Container for the form */
+// .contactCard {
+//   background-color: #e0ecff;
+//   height: 90vh;
+//   width: 42vw;
+//   border-radius: 20px;
+//   margin: 30px;
+//   padding-right: 40px;
+// }
+
+// .contact-us-form {
+//   width: 50%;
+//   margin: 50px auto;
+//   padding: 20px;
+//   background-color: #fff;
+//   border-radius: 8px;
+//   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+// }
+
+// .head {
+//   font-size: 22px;
+//   padding-top: 40px;
+//   padding-left: 40px;
+//   padding-bottom: 20px;
+// }
+
+// .row {
+//   display: flex;
+//   flex-wrap: wrap; /* This will allow items to wrap on smaller screens */
+//   justify-content: space-between;
+// }
+
+// .pair {
+//   display: flex;
+//   flex-direction: column;
+//   padding: 10px;
+//   padding-left: 40px;
+//   flex: 1 1 48%; /* Set to 48% to prevent input fields from being too wide */
+//   margin-bottom: 20px; /* Optional: add space between rows of inputs */
+// }
+
+// .headings {
+//   font-size: 14px;
+//   color: black;
+//   padding-bottom: 10px;
+// }
+
+// .textareaa {
+//   height: 100px;
+// }
+
+// /* Heading */
+// .contact-us-form h2 {
+//   text-align: center;
+//   color: #333;
+// }
+
+// /* Inputs */
+// .inputs {
+//   height: 38px;
+//   width: 100%; /* Make inputs take full width of their container */
+//   max-width: 350px; /* Limit the max-width to prevent inputs from becoming too wide */
+//   border-radius: 10px;
+//   border: none;
+//   margin-right: 20px;
+//   margin-bottom: 20px;
+// }
+
+// /* Form input and textarea fields */
+// .contact-us-form label {
+//   font-weight: bold;
+//   color: #555;
+//   display: block;
+//   margin-bottom: 8px;
+// }
+
+// .contact-us-form input,
+// .contact-us-form textarea,
+// .contact-us-form select {
+//   width: 100%;
+//   padding: 10px;
+//   margin-bottom: 15px;
+//   border: 1px solid #ccc;
+//   border-radius: 4px;
+//   font-size: 14px;
+// }
+
+// /* Submit button */
+// .contact-us-form button {
+//   width: 100%;
+//   padding: 10px 20px;
+//   background-color: #4CAF50;
+//   color: #fff;
+//   border: none;
+//   border-radius: 4px;
+//   cursor: pointer;
+//   font-size: 16px;
+// }
+
+// .contact-us-form button:hover {
+//   background-color: #45a049;
+// }
+
+// .buttons {
+//   background-color: blue;
+//   height: 38px;
+//   width: 300px;
+//   color: white;
+//   border: none;
+//   border-radius: 10px;
+//   text-align: center;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin: auto;
+//   margin-top: 20px;
+// }
+
+// /* Media Query for Large Screens (greater than 1024px) */
+// @media (min-width: 1024px) {
+//   .row {
+//       justify-content: space-between;
+//   }
+
+//   .pair {
+//       flex: 1 1 48%; /* Use 48% for better control over the width */
+//   }
+// }

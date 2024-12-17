@@ -1,0 +1,256 @@
+// .Services {
+//     //background-color: #f2f88c;
+//     //background-color: #6b7094;
+//   //   background-color:#b3b6ca;
+//   // background: #dcdff1;
+//   background-color: #ecefff;
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+//     padding-top: 30px;
+//     padding-bottom: 40px;
+//     margin-top:0px;
+//     display:flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+    
+//   }
+  
+//   .serviceMainHead {
+//     font-size: 18px;
+//     text-align: center;
+//   }
+//   .ServicesSubHead {
+//     font-size: 18px;
+//     font-weight: bold;
+//   }
+  
+//   .LeftPartHead {
+//     font-size: 30px;
+//   }
+//   .subPart {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+  
+//     padding-top: 20px;
+//   }
+//   .leftHead {
+//     font-size: 40px;
+//     width: 600px;
+   
+//   }
+//   .leftPara {
+//     font-size: 17px;
+//     width: 700px;
+//     font: weight 200px;
+//     padding-right:30px;
+   
+    
+
+//   }
+//   .side{
+//     padding-left:50px;
+//     padding-top:60px;
+  
+//   }
+//   .span {
+//     font-weight: bold;
+//   }
+//   .webTransparentImage{
+//   height: 450px;
+//   width: 550px;
+//   margin-right:50px;
+//   padding-top:50px;
+//   padding-bottom:30px;
+//   }
+//   .heading-2 {
+//     font-family: Readex Pro, sans-serif;
+//     font-size: 2.75rem;
+//     font-weight: 500;
+//     line-height: 120%;
+// }
+  
+//   .bookDemo {
+//       color: #fff;
+//       text-align: center;
+//       background-color: #5d1eb4;
+//       border-radius: 6px;
+//       padding: .75rem 1.5rem;
+//       font-weight: 600;
+//       border:none;
+//   }
+  
+.Services {
+  background-color: #ecefff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceMainHead {
+  font-size: 18px;
+  text-align: center;
+}
+
+.ServicesSubHead {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.LeftPartHead {
+  font-size: 30px;
+}
+
+.subPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.leftHead {
+  font-size: 40px;
+  width: 600px;
+}
+
+.leftPara {
+  font-size: 17px;
+  width: 700px;
+  font-weight: 200;
+  padding-right: 30px;
+}
+
+.side {
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+.span {
+  font-weight: bold;
+}
+
+.webTransparentImage {
+  height: 450px;
+  width: 550px;
+  margin-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.heading-2 {
+  font-family: Readex Pro, sans-serif;
+  font-size: 2.75rem;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.bookDemo {
+  color: #fff;
+  text-align: center;
+  background-color: #5d1eb4;
+  border-radius: 6px;
+  padding: .75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+}
+
+/* Responsive design for medium and small screens */
+
+/* Medium devices (tablets) */
+@media (max-width: 1024px) {
+  .subPart {
+    flex-direction: column; /* Stack elements vertically on medium screens */
+    padding-left: 0px;
+  }
+
+  .leftHead {
+    font-size: 32px; /* Adjust font size for medium screens */
+    width: 100%; /* Ensure text takes full width */
+    // padding-left:40px;
+    
+  }
+
+  .leftPara {
+    font-size: 15px;
+    width: 100%; /* Ensure paragraph takes full width */
+    // padding-left:40px;
+  }
+
+  .webTransparentImage {
+    height: 400px;
+    width: 100%; /* Make sure the image adapts to the screen width */
+    margin-right: 0px;
+    padding-top: 20px;
+    display:none;
+  }
+}
+
+/* Small devices (phones) */
+@media (max-width: 768px) {
+  .subPart {
+    padding-left: 0px;
+    flex-direction: column; /* Stack content vertically on small screens */
+  }
+
+  .leftHead {
+    font-size: 28px; /* Adjust font size for small screens */
+    width: 100%;
+  }
+
+  .leftPara {
+    font-size: 14px;
+    width: 100%; /* Full width for paragraphs */
+  }
+
+  .webTransparentImage {
+    height: 350px;
+    width: 100%; /* Ensure image fits the screen */
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .side {
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+}
+
+/* Extra small devices (small phones) */
+@media (max-width: 480px) {
+  .subPart {
+    flex-direction: column; /* Stack content vertically */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .leftHead {
+    font-size: 24px; /* Make font smaller for small phones */
+    width: 100%;
+  }
+
+  .leftPara {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .webTransparentImage {
+    height: 300px;
+    width: 100%; /* Full width image */
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .side {
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+}

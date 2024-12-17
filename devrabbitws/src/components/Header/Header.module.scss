@@ -1,0 +1,621 @@
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//   }
+
+//   .headerPart {
+//     background-color: #ebde64;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-around;
+//     position: fixed;
+//     width: 100%;
+//     align-items: center;
+//     height: 100px;
+//   }
+//   .logoImage {
+//     height: 220px;
+//     width: 230px;
+//   }
+
+//   .header_items {
+//     padding: 10px;
+//     display: flex;
+//   }
+
+//   .Link_item {
+//    // margin: 0 auto;
+//     padding: 5px 10px;
+//     font-size: 22px;
+//   }
+
+//   @media (max-width: 768px) {
+//     .nav_items_list {
+//       display: flex;
+//       flex-direction: column;
+//     }
+//   }
+// //
+
+//------
+/* Header Container */
+//********************
+// .header {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   padding: 25px 20px;
+//   background-color: white;
+//   color: black;
+//   font-family: Arial, sans-serif;
+// //   position: fixed;
+// }
+
+// /* Left Section: Company Name */
+// .header_left .company_name {
+//   font-size: 24px;
+//   font-weight: bold;
+//   margin: 0;
+//   color: black;
+// }
+// // .headtext{
+// //   padding-bottom:20px;
+// //   color:red;
+// // }
+
+// /* Right Section: Navigation Links */
+// .header_right .nav_links {
+//   list-style: none;
+//   display: flex;
+//   gap: 20px;
+//   margin: 0;
+//   padding: 0;
+// }
+
+// .header-right .nav-links li {
+//   display: inline;
+// }
+
+// .header-right .nav-links a {
+//   text-decoration: none;
+//   color: black;
+//   font-size: 16px;
+//   transition: color 0.3s ease;
+// }
+
+// .header-right .nav-links a:hover {
+//   color: #00bcd4;
+// }
+
+//*********
+//-------
+// .header {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   background-color:white;
+//   color: black;
+//   padding: 10px 20px;
+
+//   .header_left {
+//     .company_name {
+//       font-size: 1.5rem;
+//       font-weight: bold;
+//     }
+//   }
+
+//   .header_right {
+//     .nav_links {
+//       display: flex;
+//       list-style: none;
+//       margin: 0;
+//       padding: 0;
+
+//       .nav_item {
+//         position: relative;
+//         margin: 0 15px;
+//         cursor: pointer;
+
+//         span {
+//           font-size: 1rem;
+//           color: black;
+//           transition: color 0.3s;
+
+//           &:hover {
+//             color: blueviolet;
+//           }
+//         }
+//         .dropdown_arrow {
+//           margin-left: 10px;
+//           font-size: 25px;
+//           transition: transform 0.3s ease;
+//           margin-top:40px;
+
+//         }
+
+//         .dropdown_arrow:hover {
+//           color: #1877f2; /* Hover effect if needed */
+//         }
+
+//         .dropdown {
+//           position: absolute;
+//           top: 100%; /* Position below the nav item */
+//           left: 0;
+//           background-color: white;
+//           color: black;
+//           border-radius: 5px;
+//           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+//           display: flex;
+//           flex-direction: column;
+//           list-style: none;
+//           // padding: 20px 20px;
+//           margin: 0;
+//           width:250px;
+
+//           li {
+//             padding: 8px 20px;
+//             font-size: 0.9rem;
+//             cursor: pointer;
+//             transition: background-color 0.3s;
+
+//             &:hover {
+//               background-color: #555;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// .iconsession{
+//   display:flex;
+//   flex-direction: row;
+// }
+// .icon_button {
+//   margin: 0 10px;
+//   color: #3b7ef2;
+//   &:hover {
+//     color: #1877f2;
+//   }
+// }
+//------184
+
+//--------
+
+// .header {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   background-color: white;
+//   color: black;
+//   padding: 10px 20px;
+
+//   .header_left {
+//     .company_name {
+//       font-size: 1.5rem;
+//       font-weight: bold;
+//     }
+//   }
+
+//   .header_right {
+//     .nav_links {
+//       display: flex;
+//       list-style: none;
+//       margin: 0;
+//       padding: 0;
+
+//       .nav_item {
+//         position: relative;
+//         margin: 0 15px;
+//         cursor: pointer;
+
+//         span {
+//           font-size: 1rem;
+//           color: black;
+//           transition: color 0.3s;
+
+//           &:hover {
+//             color: blueviolet;
+//           }
+//         }
+
+//         .dropdown {
+//           position: absolute;
+//           top: 100%; /* Position below the nav item */
+//           left: 0;
+//           background-color: white;
+//           color: black;
+//           border-radius: 5px;
+//           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+//           display: flex;
+//           flex-direction: column;
+//           list-style: none;
+//           padding: 10px 0;
+//           margin: 0;
+//           width: 250px;
+
+//           li {
+//             padding: 8px 20px;
+//             font-size: 0.9rem;
+//             cursor: pointer;
+//             transition: background-color 0.3s;
+
+//             &:hover {
+//               background-color: #555;
+//             }
+//           }
+//         }
+
+//         .dropdown_arrow {
+//           margin-left: 8px;
+//           transition: transform 0.3s ease-in-out;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// //=======
+//my code is started here
+// .headerr{
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+// }
+// .image{
+//   margin-right:220px;
+//   margin-left:10px;
+// }
+// .left{
+//   display:flex;
+//   justify-content: space-around;
+// }
+
+// .header {
+//   display: flex;
+//   padding-top:20px;
+//   padding-bottom: 20px;
+//   justify-content: space-between;
+//   align-items: center;
+//   background-color: white;
+//   color: black;
+//   // padding: 10px 20px;
+
+//   .header_left {
+//     .company_name {
+//       font-size: 1.5rem;
+//       font-weight: bold;
+//     }
+//   }
+//   .twosides {
+//     display: flex;
+//   }
+
+//   .header_right {
+//     .nav_links {
+//       display: flex;
+//       list-style: none;
+//       margin: 0;
+//       padding: 20px;
+
+//       .nav_item {
+//         position: relative;
+//         margin: 0 15px;
+//         cursor: pointer;
+
+//         /* Aligning text and arrow */
+//         .nav_item_content {
+//           display: flex;
+//           align-items: center;
+//           // justify-content: flex-start;
+//           // align-items: center;
+
+//           span {
+//             font-size: 1rem;
+//             color: black;
+//             transition: color 0.3s;
+//             padding-bottom: 40px;
+//           }
+
+//           .dropdown_arrow {
+//             margin-left: 10px;
+//             font-size: 25px;
+//             transition: transform 0.3s ease;
+//             padding-top: 50px;
+//           }
+//         }
+
+//         .dropdown_arrow:hover {
+//           color: #1877f2; /* Hover effect if needed */
+//         }
+
+//         .dropdown {
+//           position: absolute;
+//           top: 100%; /* Position below the nav item */
+//           left: 0;
+//           background-color: white;
+//           color: black;
+//           border-radius: 5px;
+//           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+//           display: flex;
+//           flex-direction: column;
+//           list-style: none;
+//           margin: 0;
+//           // margin-top:20px;
+
+//           // width: 250px;
+//           // padding-top:40px;
+
+//           li {
+//             // padding: 8px 20px;
+//             font-size: 0.9rem;
+//             cursor: pointer;
+//             transition: background-color 0.3s;
+
+//             &:hover {
+//               background-color: #faf1f1;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// .aboutcontact{
+//   display:flex;
+//   justify-content:space-between ;
+//   margin-left:10px;
+//   padding-left:10px;
+//   margin-right:20px;
+// }
+
+// .iconsession {
+//   display: flex;
+//   flex-direction: row;
+// }
+// .icon_buttons {
+//   background-color: white;
+//   height: 120px;
+//   width: 120px;
+// }
+// .icon_buttoni {
+//   background-color:white;
+//   color: black;
+//   height: 90px;
+//   width: 90px;
+// }
+
+// .icon_buttonz {
+//   background-color:rgb(214, 42, 42);
+//   color: black;
+//   height: 20px;
+//   width: 20px;
+//   padding:100px;
+// }
+// .icon_button {
+//   // margin: 0 10px;
+//   color: blueviolet;
+//   font-size: 10px;
+
+//   margin-right: 20px;
+//   height: 30px;
+//   width: 30px;
+//   background-color: none;
+//   margin-top: 20px;
+
+//   &:hover {
+//     color: #1877f2;
+//   }
+// }
+// .links {
+//   text-decoration: none;
+//   border: none;
+// }
+
+// .icontext {
+//   display: flex;
+// }
+
+// .linkhead {
+//   line-height: 1.5;
+//   text-decoration: none;
+// }
+// .aboutus{
+//   text-decoration: none;
+//   color:black;
+//   margin-top:35px;
+//   margin-right:20px;
+// }
+//ok my code is ended here
+
+.header {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+
+  .header_left {
+    display: flex;
+    align-items: center;
+    .image {
+      margin-right: 20px;
+    }
+  }
+
+  .left {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+
+    .nav_item {
+      font-size: 1rem;
+      cursor: pointer;
+      padding: 0 10px;
+      display: inline-block;
+
+      &:hover {
+        color: #1877f2;
+      }
+
+      &.dropdown {
+        position: relative;
+        .dropdown_arrow {
+          margin-left: 10px;
+          font-size: 20px;
+        }
+
+        .dropdown {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background-color: white;
+          color: black;
+          border-radius: 5px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          display: none;
+          flex-direction: column;
+          list-style: none;
+          margin: 0;
+        }
+
+        &:hover .dropdown {
+          display: flex;
+        }
+
+        .dropdown li {
+          font-size: 0.9rem;
+          padding: 8px 20px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #faf1f1;
+          }
+        }
+      }
+    }
+  }
+
+  .aboutcontact {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+    align-items: center;
+  }
+}
+.aboutus{
+  text-decoration: none;
+  color:black;
+  font-weight: 500;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Medium to Large Screens */
+@media (max-width: 1200px) {
+  .header {
+    padding: 10px 20px;
+    .header_left .image {
+      margin-right: 20px;
+    }
+  }
+
+  .left {
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .nav_item {
+      font-size: 1rem;
+      padding: 0 10px;
+    }
+  }
+}
+
+/* Tablet and Mobile Screens */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .header_left {
+    margin-bottom: 10px;
+  }
+
+  .left {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .aboutcontact {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  .icon_button {
+    font-size: 20px;
+  }
+
+  .nav_item {
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .aboutus {
+    margin-top: 20px;
+    text-decoration: none;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .left {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .aboutcontact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .icon_button {
+    font-size: 18px;
+  }
+
+  .nav_item {
+    font-size: 1.1rem;
+  }
+
+  .aboutus {
+    margin-top: 10px;
+    font-size: 1rem;
+   
+  }
+}
+

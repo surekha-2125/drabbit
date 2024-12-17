@@ -1,0 +1,261 @@
+// .Services {
+//   background-color: #e0e7f9;
+//   display: flex;
+//   flex-direction: column;
+//   width: 100%;
+//   padding-top: 30px;
+//   padding-bottom: 40px;
+//   position: relative;
+// }
+
+// .card {
+//   margin: 0 auto;
+//   background-color: white;
+//   border-radius: 15px;
+//   padding: 20px;
+// }
+
+// .subPart {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+//   padding-top: 20px;
+// }
+
+// .leftHead {
+//   font-size: 40px;
+//   width: 700px;
+// }
+
+// .leftPara {
+//   font-size: 18px;
+//   width: 700px;
+//   font-weight: 200;
+// }
+
+// .webTransparentImage {
+//   height: 400px;
+//   width: 400px;
+//   object-fit: contain; /* Ensure image scales properly */
+// }
+
+// .bookDemo {
+//   color: #fff;
+//   background-color: #5d1eb4;
+//   border-radius: 6px;
+//   padding: 0.75rem 1.5rem;
+//   font-weight: 600;
+//   border: none;
+//   cursor: pointer;
+// }
+// /* Custom arrow styles */
+// .customArrowLeft,
+// .customArrowRight {
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   font-size: 25px;
+//   color:black;
+//   cursor: pointer;
+//   z-index: 10;
+//   padding:5px;
+//   background-color: #e0e7f9;
+//   border-radius: 50px;
+//   margin: 10px;
+//   margin-right:40px;
+//   margin-left:40px;
+// }
+
+// .customArrowLeft {
+//   left: 0;
+// }
+
+// .customArrowRight {
+//   right: 0;
+// }
+
+//above code
+.Services {
+  background-color: #e0e7f9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.card {
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.subPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.leftHead {
+  font-size: 40px;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.leftPara {
+  font-size: 18px;
+  width: 700px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.webTransparentImage {
+  height: 400px;
+  width: 400px;
+  object-fit: contain; /* Ensure image scales properly */
+}
+
+.bookDemo {
+  color: #fff;
+  background-color: #5d1eb4;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bookDemo:hover {
+  background-color: #4b1483;
+}
+
+/* Custom arrow styles */
+.customArrowLeft,
+.customArrowRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+  z-index: 10;
+  padding: 5px;
+  background-color: #e0e7f9;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.customArrowLeft {
+  left: 0;
+}
+
+.customArrowRight {
+  right: 0;
+}
+
+/* Mobile and Tablet Responsiveness */
+
+/* Large Screens */
+@media (max-width: 1200px) {
+  .subPart {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .leftHead {
+    font-size: 35px;
+    width: 600px;
+  }
+
+  .leftPara {
+    font-size: 16px;
+    width: 650px;
+  }
+
+  .webTransparentImage {
+    height: 350px;
+    width: 350px;
+  }
+
+  .bookDemo {
+    padding: 0.75rem 1.25rem;
+  }
+}
+
+/* Medium Screens (Tablets) */
+@media (max-width: 768px) {
+  .subPart {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .leftHead {
+    font-size: 30px;
+    width: auto;
+  }
+
+  .leftPara {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  /* Hide the image on smaller screens */
+  .webTransparentImage {
+    display: none;
+  }
+
+  .bookDemo {
+    padding: 1rem 2rem;
+    font-size: 16px;
+  }
+
+  .customArrowLeft,
+  .customArrowRight {
+    font-size: 20px;
+  }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 480px) {
+  .subPart {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .leftHead {
+    font-size: 26px;
+    width: auto;
+  }
+
+  .leftPara {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .webTransparentImage {
+    display: none; /* Hide the image on mobile */
+  }
+
+  .bookDemo {
+    padding: 1rem 2rem;
+    font-size: 14px;
+    width: 70%;
+  }
+
+  .customArrowLeft,
+  .customArrowRight {
+    font-size: 18px;
+  }
+}
+

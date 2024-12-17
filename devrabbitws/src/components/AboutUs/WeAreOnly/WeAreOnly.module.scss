@@ -1,0 +1,198 @@
+// .bg {
+//     background-color: #e2e7f4;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     width: 100%;
+//     padding-top: 30px;
+//     padding-bottom: 100px;
+//     margin-top: 0;
+// }
+// .bg {
+//   background-color: #e0e7f9;
+
+//   padding-top: 20px;
+//   padding-bottom: 50px;
+//   //   text-align:center;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   align-items: center;
+// }
+
+// .head {
+//   text-align: center;
+//   font-size: 2rem;
+//   margin-bottom: 30px;
+// }
+
+// .card {
+//   background-color: white;
+//   padding: 20px;
+//   border-radius: 8px;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//   width: 80%;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-around;
+//   align-items: center;
+// }
+// .count {
+//   color: #9151e4;
+//   margin-top: 0;
+//   margin-bottom: 0.5rem;
+
+//   font-size: 3.75rem;
+//   font-weight: 600;
+//   line-height: 1.2;
+// }
+// .text {
+//   color: #101828;
+
+//   font-weight: 700;
+//   text-align:center;
+// }
+
+// .cardRow {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   height: 120px;
+//   margin: 20px;
+//   // width: 50%;
+//   //   padding-left: 600px;
+//   // text-align: center;
+// }
+
+// .cardColumn {
+//   flex: 1;
+//   // text-align: auto;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+// }
+
+// .cardText {
+//   font-size: 4rem;
+//   font-weight: bold;
+//   color: #4411c7;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
+.bg {
+  background-color: #e0e7f9;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.head {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #101828;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1200px; /* Limit max width */
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap in smaller screens */
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Space between items */
+}
+
+.count {
+  color: #9151e4;
+  font-size: 3.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  color: #101828;
+  font-weight: 700;
+  font-size: 1rem; /* Adjust font size */
+  text-align: center;
+}
+
+/* Styling for the individual count items */
+.card div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 200px; /* Allow the items to flex based on screen size */
+  min-width: 180px; /* Ensure minimum width */
+  text-align: center;
+}
+
+/* Responsive Design for various screen sizes */
+@media (max-width: 1024px) {
+  .head {
+    font-size: 1.5rem; /* Adjust font size for medium screens */
+  }
+
+  .count {
+    font-size: 3rem; /* Reduce size on smaller screens */
+  }
+
+  .text {
+    font-size: 0.9rem; /* Adjust text size */
+  }
+
+  // .card {
+  //   // width: 95%; /* Slightly reduce width on medium screens */
+  // }
+}
+
+@media (max-width: 768px) {
+  .head {
+    font-size: 1.25rem; /* Smaller font size */
+  }
+
+  .count {
+    font-size: 2.5rem; /* Reduce font size */
+  }
+
+  .text {
+    font-size: 0.8rem;
+  }
+
+  // .card {
+  //   // width: 100%; /* Full width for smaller devices */
+  //   padding: 15px; /* Reduce padding */
+  // }
+}
+
+@media (max-width: 480px) {
+  .head {
+    font-size: 1rem; /* Further reduce the head font size */
+  }
+
+  .count {
+    font-size: 2rem; /* Reduce font size */
+  }
+
+  .text {
+    font-size: 0.75rem; /* Adjust font size */
+  }
+
+  // .card {
+  //   padding: 10px; /* Adjust padding for small devices */
+  //   // width: 100%;
+  // }
+}

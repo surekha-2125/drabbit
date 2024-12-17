@@ -1,0 +1,65 @@
+.footer {
+  background-color: white; /* Dark background color */
+  color: #ffffff; /* White text */
+  padding: 80px 30px; /* Padding for spacing */
+  text-align: left;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the footer content */
+  }
+  .image{
+    margin-top:22px;
+  }
+
+  .column {
+    flex: 1;
+    margin: 0 15px;
+    min-width: 200px;
+    line-height:2.5;
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: black; /* Slightly lighter heading color */
+    }
+
+    p {
+      margin: 5px 0;
+      // font-size: 0.9rem;
+      font-size: 15px;
+      color: #5b616e; /* Light gray text color */
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: none;
+        color: black; /* Highlighted color on hover */
+      }
+      
+    }
+  }
+  .copyright {
+    text-align: center;
+    margin-top: 20px; /* Adds spacing above */
+    padding-top: 10px;
+    border-top: 1px solid #cec8c8; /* Thin line above the copyright */
+    font-size: 0.85rem;
+    color: #bbbbbb; /* Muted color */
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.email{
+  display:flex;
+
+}
+.icon{
+  margin-top:15px;
+  margin-right:10px;
+  font-size: 20px;
+  color:#5d1eb4;
+}

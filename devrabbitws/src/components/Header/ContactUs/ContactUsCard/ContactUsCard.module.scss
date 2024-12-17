@@ -1,0 +1,59 @@
+.h1{
+    color:red;
+}
+.card{
+    background-color:white;
+    width:500px;
+    // margin:20px;
+    padding:30px;
+    border-radius:20px;
+}
+.email{
+    display:flex;
+  
+  }
+  .icon{
+    margin-top:15px;
+    margin-right:10px;
+    font-size: 20px;
+    color:#5d1eb4;
+  }
+
+// .card {
+//   background-color: white;
+//   width: 100%;
+//   max-width: 500px; /* Ensure the card doesn't become too wide */
+//   margin: 20px;
+//   padding: 30px;
+//   border-radius: 20px;
+//   text-align: center;
+// }
+
+// .email {
+//   display: flex;
+//   align-items: center;
+//   margin-top: 10px;
+// }
+
+// .icon {
+//   margin-right: 10px;
+//   font-size: 20px;
+//   color: #5d1eb4;
+// }
+
+// h1 {
+//   font-size: 2rem;
+//   margin-bottom: 15px;
+// }
+
+// p {
+//   color: #666;
+//   margin-bottom: 10px;
+// }
+
+// @media (max-width: 600px) {
+//   .card {
+//     width: 90%; /* Ensure it takes up most of the screen on smaller devices */
+//     padding: 20px;
+//   }
+// }

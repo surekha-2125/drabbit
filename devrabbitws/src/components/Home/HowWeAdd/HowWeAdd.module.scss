@@ -1,0 +1,81 @@
+.Services {
+    //background-color: #f2f88c;
+    //background-color: #6b7094;
+  //   background-color:#b3b6ca;
+  // background: #dcdff1;
+  background-color:white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top:0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .serviceMainHead {
+    font-size: 18px;
+    text-align: center;
+  }
+  .ServicesSubHead {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .LeftPartHead {
+    font-size: 30px;
+  }
+  .subPart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    padding-top: 20px;
+  }
+  .leftHead {
+    font-size: 40px;
+    width: 600px;
+   
+  }
+  .leftPara {
+    font-size: 17px;
+    width: 700px;
+    font: weight 200px;
+    
+
+  }
+  .side{
+    padding-left:50px;
+    padding-top:60px;
+  }
+  .span {
+    font-weight: bold;
+  }
+  .webTransparentImage{
+  height: 450px;
+  width: 550px;
+  margin-right:50px;
+  padding-top:50px;
+  padding-bottom:30px;
+  }
+  .heading-2 {
+    font-family: Readex Pro, sans-serif;
+    font-size: 2.75rem;
+    font-weight: 500;
+    line-height: 120%;
+}
+  
+  .bookDemo {
+      color: #fff;
+      text-align: center;
+      background-color: #5d1eb4;
+      border-radius: 6px;
+      padding: .75rem 1.5rem;
+      font-weight: 600;
+      border:none;
+  }
+  

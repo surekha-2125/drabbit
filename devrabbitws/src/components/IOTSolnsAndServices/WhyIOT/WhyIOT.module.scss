@@ -1,0 +1,215 @@
+// .Services {
+//     //background-color: #f2f88c;
+//     //background-color: #6b7094;
+//   //   background-color:#b3b6ca;
+//   // background: #dcdff1;
+// //   background-color:#e8effd;
+// // background-color:white;
+// background-color:  #ecefff;
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+//     padding-top: 30px;
+//     padding-bottom: 40px;
+//     margin-top:0px;
+//     display:flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+    
+//   }
+  
+//   .serviceMainHead {
+//     font-size: 18px;
+//     text-align: center;
+//   }
+//   .ServicesSubHead {
+//     font-size: 18px;
+//     font-weight: bold;
+//   }
+  
+//   .LeftPartHead {
+//     font-size: 30px;
+//   }
+//   .subPart {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+  
+//     padding-top: 20px;
+//     padding-left:30px;
+//   }
+//   .leftHead {
+//     font-size: 30px;
+//     width: 600px;
+   
+//   }
+//   .leftPara {
+//     font-size: 17px;
+//     width: 700px;
+//     font: weight 200px;
+    
+
+//   }
+//   .side{
+//     padding-left:50px;
+//     padding-top:60px;
+//   }
+//   .span {
+//     font-weight: bold;
+//   }
+//   .webTransparentImage{
+//   height: 500px;
+//   width: 600px;
+//   margin-right:50px;
+//   padding-top:100px;
+//   padding-bottom:30px;
+  
+//   }
+//   .heading-2 {
+//     font-family: Readex Pro, sans-serif;
+//     font-size: 2.75rem;
+//     font-weight: 500;
+//     line-height: 120%;
+// }
+  
+//   .bookDemo {
+//       color: #fff;
+//       text-align: center;
+//       background-color: #5d1eb4;
+//       border-radius: 6px;
+//       padding: .75rem 1.5rem;
+//       font-weight: 600;
+//       border:none;
+//   }
+  
+//00000000000
+
+.Services {
+  background-color: #ecefff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.subPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 30px;
+  flex-wrap: wrap; /* This will ensure the layout wraps on smaller screens */
+}
+
+.leftHead {
+  font-size: 30px;
+  width: 600px;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.leftPara {
+  font-size: 17px;
+  width: 700px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.side {
+  padding-left: 50px;
+  padding-top: 60px;
+  flex: 1; /* Ensures side part takes equal width */
+  min-width: 300px; /* Prevents it from getting too narrow on small screens */
+}
+
+.webTransparentImage {
+  height: 500px;
+  width: 600px;
+  margin-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  object-fit: contain;
+  flex: 1; /* Ensures the image takes up remaining space */
+  min-width: 300px; /* Prevents image from getting too small */
+}
+
+@media (max-width: 992px) {
+  .subPart {
+    flex-direction: column; /* Stacks image and text on smaller screens */
+    align-items: center;
+  }
+
+  .leftHead {
+    font-size: 28px;
+    text-align: center; /* Centers the heading on smaller screens */
+  }
+
+  .leftPara {
+    font-size: 16px;
+    text-align: center; /* Centers the text */
+    width: 90%; /* Ensures text doesn't get too wide */
+  }
+
+  .webTransparentImage {
+    width: 80%; /* Adjusts the image size on medium screens */
+    height: auto;
+    margin-right: 0;
+    margin-top: 20px;
+    display:none;
+  }
+
+  .side {
+    padding-left: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .leftHead {
+    font-size: 24px;
+  }
+
+  .leftPara {
+    font-size: 14px;
+  }
+
+  .webTransparentImage {
+    width: 90%; /* Further reduces image size on small screens */
+    display:none;
+  }
+
+  .bookDemo {
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .Services {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .leftHead {
+    font-size: 22px;
+  }
+
+  .leftPara {
+    font-size: 12px;
+  }
+
+  .webTransparentImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .bookDemo {
+    padding: 0.6rem 1rem;
+  }
+}

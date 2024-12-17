@@ -1,0 +1,90 @@
+
+/* Container for the card */
+.cardSection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+  }
+
+.card {
+    width: 600px; /* You can adjust this based on your design */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  @media (max-width: 1200px) {
+    .card {
+      grid-template-columns: repeat(2, 1fr); /* 3 columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .card {
+      grid-template-columns: repeat(1, 1fr); /* 2 columns on small screens */
+    }
+  }
+  .cardimageline{
+display: flex;
+flex-direction: row;
+  }
+  .head{
+    font-size: 20px;
+  }
+  
+  /* Title of the card */
+  .cardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Content area of the card */
+  .cardContent {
+    max-height: 400px; /* Optional: to control card height */
+    overflow-y: auto; /* Allows scrolling if the list overflows */
+  }
+  
+  /* Unordered list style */
+  .list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* List item style */
+  .listItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  /* Icon styling */
+  .icon {
+    color: #4caf50; /* Green color for the icon */
+    margin-right: 10px;
+  }
+  
+  /* Text styling for each item */
+  .itemText {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    flex: 1;
+  }
+  
+
+  //======
+
+  

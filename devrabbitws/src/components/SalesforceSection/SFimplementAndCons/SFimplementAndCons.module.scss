@@ -1,0 +1,218 @@
+// .Services {
+//     //background-color: #f2f88c;
+//     //background-color: #6b7094;
+//     //   background-color:#b3b6ca;
+//     // background: #dcdff1;
+//     background-color: #e0e7f9;
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+//     padding-top: 30px;
+//     padding-bottom: 40px;
+//     margin-top: 0px;
+//   }
+  
+//   .serviceMainHead {
+//     font-size: 18px;
+//     text-align: center;
+//   }
+//   .ServicesSubHead {
+//     font-size: 18px;
+//     font-weight: bold;
+//   }
+  
+//   .LeftPartHead {
+//     font-size: 30px;
+//   }
+//   .subPart {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     margin-left: 0px;
+//     padding-top: 20px;
+//   }
+//   .leftHead {
+//     font-size: 55px;
+//     width: 700px;
+//   }
+//   .leftPara {
+//     font-size: 18px;
+//     width: 700px;
+//     font: weight 200px;
+//   }
+//   .span {
+//     font-weight: bold;
+//   }
+//   .webTransparentImage {
+//     height: 500px;
+//     width: 500px;
+//   }
+  
+//   .bookDemo {
+//     color: #fff;
+//     text-align: center;
+//     background-color: #5d1eb4;
+//     border-radius: 6px;
+//     padding: 0.75rem 1.5rem;
+//     font-weight: 600;
+//     border: none;
+//   }
+  //above code
+  .Services {
+    background-color: #e0e7f9;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+  }
+  
+  .serviceMainHead {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .ServicesSubHead {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .LeftPartHead {
+    font-size: 30px;
+  }
+  
+  .subPart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 50px;  /* Add space between the image and text */
+    flex-wrap: wrap; /* Allows wrapping for small screens */
+  }
+  
+  .leftHead {
+    font-size: 55px;
+    width: 700px;
+    margin-bottom: 20px;
+  }
+  
+  .leftPara {
+    font-size: 18px;
+    width: 700px;
+    font-weight: 200;
+    margin-bottom: 30px;
+  }
+  
+  .webTransparentImage {
+    height: 500px;
+    width: 500px;
+    object-fit: contain; /* Ensure the image scales well */
+  }
+  
+  .bookDemo {
+    color: #fff;
+    text-align: center;
+    background-color: #5d1eb4;
+    border-radius: 6px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Mobile and Tablet Responsiveness */
+  
+  /* Large Screens (Desktops and Tablets) */
+  @media (max-width: 1200px) {
+    .subPart {
+      flex-direction: row;
+      gap: 30px;
+    }
+  
+    .leftHead {
+      font-size: 50px;
+      width: 600px;
+    }
+  
+    .leftPara {
+      font-size: 20px;
+      width: 650px;
+    }
+  
+    .webTransparentImage {
+      height: 450px;
+      width: 450px;
+    }
+  
+    .bookDemo {
+      padding: 0.75rem 1.25rem;
+    }
+  }
+  
+  /* Medium Screens (Tablets) */
+  @media (max-width: 768px) {
+    .subPart {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .leftHead {
+      font-size: 55px;
+      width: auto;
+    }
+  
+    .leftPara {
+      font-size: 20px;
+      width: 90%;
+    }
+  
+    .webTransparentImage {
+      height: 500px;
+      width: 500px;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .bookDemo {
+      padding: 1rem 2rem;
+      font-size: 16px;
+    }
+  }
+  
+  /* Small Screens (Mobile) */
+  @media (max-width: 480px) {
+    .subPart {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .leftHead {
+      font-size: 30px;
+      width: auto;
+    }
+  
+    .leftPara {
+      font-size: 16px;
+      width: 90%;
+    }
+  
+    .webTransparentImage {
+      height: 300px;
+      width: 300px;
+      display: block;
+      margin: 0 auto;
+    }
+  
+    .bookDemo {
+      padding: 1rem 2rem;
+      font-size: 14px;
+      width: 70%;
+    }
+  }
+  

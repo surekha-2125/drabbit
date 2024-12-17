@@ -1,0 +1,344 @@
+// .Services {
+//     background-color: #e0e7f9;
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+//     padding-top: 30px;
+//     padding-bottom: 40px;
+//     position: relative;
+//   }
+//   .head{
+//     font-size:40px;
+//     text-align:center;
+//   }
+  
+//   .card {
+//     margin: 0 auto;
+//     background-color: white;
+//     border-radius: 15px;
+//     padding: 20px;
+//     height:450px;
+//     // width:80vw;
+   
+//   }
+
+  
+//   .subPart {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+//     padding-top: 30px;
+//   }
+  
+//   .leftHead {
+//     font-size: 40px;
+//     width: 700px;
+//   }
+  
+//   .leftPara {
+//     font-size: 16px;
+//     width: 700px;
+//     font-weight: 200;
+//   }
+  
+//   .webTransparentImage {
+//     height: 300px;
+//     width: 300px;
+//     object-fit: contain; /* Ensure image scales properly */
+//     margin-top:20px;
+//     margin-right:50px;
+//   }
+//   .imageheading{
+//     text-align: center;
+//     font-size:20px;
+//     padding-left:0px;
+//     padding-right:30px;
+//   }
+  
+//   .bookDemo {
+//     color: #fff;
+//     background-color: #5d1eb4;
+//     border-radius: 6px;
+//     padding: 0.75rem 1.5rem;
+//     font-weight: 600;
+//     border: none;
+//     cursor: pointer;
+//   }
+//   /* Custom arrow styles */
+//   .customArrowLeft,
+//   .customArrowRight {
+//     position: absolute;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     font-size: 25px;
+//     color:black;
+//     cursor: pointer;
+//     z-index: 10;
+//     padding:5px;
+//     background-color: #e0e7f9;
+//     border-radius: 50px;
+//     margin: 10px;
+//     margin-right:40px;
+//     margin-left:40px;
+//   }
+  
+//   .customArrowLeft {
+//     left: 0;
+//   }
+  
+//   .customArrowRight {
+//     right: 0;
+//   }
+
+//above code
+.Services {
+  background-color: #e0e7f9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.head {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Slider card styles */
+.card {
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  height: 450px;
+  width: 80vw;
+}
+
+/* SubPart section that contains image and text */
+.subPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 20px; /* Space between image and text */
+}
+
+.leftHead {
+  font-size: 40px;
+  width: 700px;
+}
+
+.leftPara {
+  font-size: 16px;
+  width: 700px;
+  font-weight: 200;
+}
+
+.webTransparentImage {
+  height: 300px;
+  width: 300px;
+  object-fit: contain; /* Ensure image scales properly */
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.imageheading {
+  text-align: center;
+  font-size: 20px;
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.bookDemo {
+  color: #fff;
+  background-color: #5d1eb4;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+/* Custom arrow styles */
+.customArrowLeft,
+.customArrowRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+  z-index: 10;
+  padding: 5px;
+  background-color: #e0e7f9;
+  border-radius: 50%;
+}
+
+.customArrowLeft {
+  left: 0;
+}
+
+.customArrowRight {
+  right: 0;
+}
+
+/* Mobile responsive styles */
+
+/* Large screens (Desktops, wide tablets) */
+@media (max-width: 1200px) {
+  .head {
+    font-size: 36px;
+  }
+
+  .subPart {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .leftHead {
+    font-size: 30px;
+    width: 600px;
+  }
+
+  .leftPara {
+    font-size: 16px;
+    width: 600px;
+  }
+
+  .webTransparentImage {
+    height: 250px;
+    width: 250px;
+  }
+
+  .imageheading {
+    font-size: 18px;
+  }
+
+  .card {
+    width: 70vw;
+  }
+}
+
+/* Medium screens (Tablets) */
+@media (max-width: 768px) {
+  .Services {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .head {
+    font-size: 32px;
+  }
+
+  .subPart {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .leftHead {
+    font-size: 28px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .leftPara {
+    font-size: 14px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .webTransparentImage {
+    height: 200px;
+    width: 200px;
+    margin-right: 0;
+  }
+
+  .imageheading {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 90vw;
+    padding: 10px;
+  }
+
+  .bookDemo {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Adjust arrows position for mobile view */
+  .customArrowLeft,
+  .customArrowRight {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 10px;
+  }
+}
+
+/* Small screens (Mobile) */
+@media (max-width: 480px) {
+  .Services {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .head {
+    font-size: 28px;
+  }
+
+  .subPart {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .leftHead {
+    font-size: 24px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .leftPara {
+    font-size: 14px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .webTransparentImage {
+    height: 180px;
+    width: 180px;
+  }
+
+  .imageheading {
+    font-size: 14px;
+  }
+
+  .card {
+    width: 90vw;
+    padding: 10px;
+    height: auto;
+  }
+
+  .bookDemo {
+    font-size: 12px;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Adjust arrows position for mobile view */
+  .customArrowLeft,
+  .customArrowRight {
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 5px;
+  }
+}
+
+  

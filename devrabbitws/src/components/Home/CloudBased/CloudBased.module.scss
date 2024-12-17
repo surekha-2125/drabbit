@@ -1,0 +1,100 @@
+.Services {
+  //background-color: #f2f88c;
+  //background-color: #6b7094;
+  //   background-color:#b3b6ca;
+  // background: #dcdff1;
+  background-color: #e0e7f9;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-top: 0px;
+  justify-content: space-around;
+}
+
+.serviceMainHead {
+  font-size: 18px;
+  text-align: center;
+}
+.ServicesSubHead {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.LeftPartHead {
+  font-size: 25px;
+}
+.subPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 0.5;
+  //   margin-left: 0px;
+  //   padding-top: 20px;
+}
+.right {
+  padding-top: 10px;
+}
+.leftHead {
+  font-size: 30px;
+  width: 700px;
+  padding-top:70px;
+  line-height:1.5;
+}
+.leftPara {
+  font-size: 25px;
+  // width: 700px;
+  font: weight 200px;
+}
+.span {
+  font-weight: bold;
+}
+.webTransparentImage {
+  height: 400px;
+  width: 550px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+
+.bookDemo {
+  color: #fff;
+  text-align: center;
+  background-color: #5d1eb4;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+}
+// .iconsession{
+//     display:flex;
+//     flex-direction: row;
+//   }
+.icon_button {
+  // margin: 0 10px;
+  color: rgb(14, 14, 94);
+  font-weight:2px;
+  margin-top:10px;
+  background-color:rgb(237, 213, 237);
+  border-radius: 50px;
+  // width:20px;
+  height:20px;
+  width:30px;
+  margin-left:10px;
+  // margin-top:px;
+  &:hover {
+    color: #1877f2;
+   
+
+  }
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  // margin-top:5px;
+}
+.ticText{
+  margin-left: 20px;
+}
+

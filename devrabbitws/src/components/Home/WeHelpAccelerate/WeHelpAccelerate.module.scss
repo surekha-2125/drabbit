@@ -1,0 +1,238 @@
+// .Services {
+//     //background-color: #f2f88c;
+//     //background-color: #6b7094;
+//   //   background-color:#b3b6ca;
+//   // background: #dcdff1;
+//   background-color:#e0e7f9;
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+//     padding-top: 30px;
+//     padding-bottom: 40px;
+//     margin-top:0px;
+//     display:flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+    
+//   }
+  
+//   .serviceMainHead {
+//     font-size: 18px;
+//     text-align: center;
+//   }
+//   .ServicesSubHead {
+//     font-size: 18px;
+//     font-weight: bold;
+//   }
+  
+//   .LeftPartHead {
+//     font-size: 30px;
+//   }
+//   .subPart {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+  
+//     padding-top: 20px;
+//   }
+//   .leftHead {
+//     font-size: 40px;
+//     width: 600px;
+   
+//   }
+//   .leftPara {
+//     font-size: 25px;
+//     width: 700px;
+//     font: weight 200px;
+    
+
+//   }
+//   .side{
+//     padding-left:50px;
+//     padding-top:60px;
+//   }
+//   .span {
+//     font-weight: bold;
+//   }
+//   .webTransparentImage{
+//   height: 600px;
+//   width: 500px;
+//   margin-right:50px;
+//   }
+//   .heading-2 {
+//     font-family: Readex Pro, sans-serif;
+//     font-size: 2.75rem;
+//     font-weight: 500;
+//     line-height: 120%;
+// }
+  
+//   .bookDemo {
+//       color: #fff;
+//       text-align: center;
+//       background-color: #5d1eb4;
+//       border-radius: 6px;
+//       padding: .75rem 1.5rem;
+//       font-weight: 600;
+//       border:none;
+//   }
+ //abcode
+ 
+ .Services {
+  background-color: #e0e7f9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.subPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Add gap for spacing between elements */
+  padding-top: 20px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.leftHead {
+  font-size: 40px;
+  width: 600px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.leftPara {
+  font-size: 25px;
+  width: 700px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.side {
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+.webTransparentImage {
+  height: 600px;
+  width: 500px;
+  margin-right: 50px;
+  object-fit: cover; /* Ensure the image doesn't stretch */
+}
+
+.bookDemo {
+  color: #fff;
+  text-align: center;
+  background-color: #5d1eb4;
+  border-radius: 6px;
+  padding: .75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bookDemo:hover {
+  background-color: #4b1483;
+}
+
+/* Mobile and Tablet Responsiveness */
+
+/* Large Screens */
+@media (max-width: 1200px) {
+  .subPart {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .leftHead {
+    font-size: 35px;
+    width: 550px;
+  }
+
+  .leftPara {
+    font-size: 20px;
+    width: 600px;
+  }
+
+  .webTransparentImage {
+    height: 500px;
+    width: 450px;
+  }
+
+  .bookDemo {
+    padding: .75rem 1.25rem;
+  }
+}
+
+/* Medium Screens (Tablets) */
+@media (max-width: 768px) {
+  .subPart {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .leftHead {
+    font-size: 40px;
+    width: auto;
+  }
+
+  .leftPara {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .webTransparentImage {
+    height: 400px;
+    width: 100%;
+    max-width: 500px;
+    display:none;
+    
+  }
+
+  .bookDemo {
+    padding: 1rem 2rem;
+    font-size: 16px;
+  }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 480px) {
+  .subPart {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .leftHead {
+    font-size: 26px;
+    width: auto;
+  }
+
+  .leftPara {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .webTransparentImage {
+    height: 300px;
+    width: 100%;
+    max-width: 350px;
+    display:none;
+  }
+
+  .bookDemo {
+    padding: 1rem 2rem;
+    font-size: 14px;
+    width: 70%;
+  }
+}

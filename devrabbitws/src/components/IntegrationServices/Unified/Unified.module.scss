@@ -1,0 +1,55 @@
+.background {
+  //   background-color: rgb(240, 240, 246);
+  background-color:  #ecefff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    // text-align:center;
+    padding:100px;
+  }
+  .intehead{
+    font-size: 50px;
+    text-align: center;
+  }
+  .empowerhead{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom:30px;
+  }
+  .firstside{
+    font-size: 20px;
+    font-weight: bold;
+     padding-top:5px;
+  }
+  .secondside{
+    font-size: 16px;
+    // padding-top:2px;
+
+  }
+  .bg {
+    
+    display: flex;
+    flex-direction: row;
+    // margin: 50px;
+    border-radius: 40px;
+    display:flex;
+    justify-content:space-around;
+    
+    
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+  //   padding: 30px;
+  //   justify-content:center;
+    align-items:flex-start;
+    width:250px;
+    justify-content: flex-start;
+   
+  }
+  // .p{
+  //     width:40px;
+  // }
+  .head {
+    font-size: 25px;
+  }
+  

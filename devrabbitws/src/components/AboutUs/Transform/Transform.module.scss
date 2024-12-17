@@ -1,0 +1,175 @@
+
+.Services {
+    background-color: #e0e7f9;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-top: 0;
+  }
+  
+  .subPart {
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+  }
+  
+  .leftHead {
+    font-size: 3.5rem; /* 55px on large screens */
+    width: 700px;
+    margin-bottom: 1rem;
+  }
+  
+  .leftPara {
+    font-size: 1.2rem; 
+    width: 700px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color:black;
+  }
+  
+  .bookDemo {
+    color: #fff;
+    text-align: center;
+    background-color: #5d1eb4;
+    border-radius: 6px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bookDemo:hover {
+    background-color: #4a148c;
+  }
+  
+  .webTransparentImage {
+    height: 500px;
+    width: 500px;
+    object-fit: contain; /* Ensure the image scales properly */
+    margin-left: 30px;
+  }
+  
+  /* Responsive Styles for Medium Screens (Tablets) */
+  @media (max-width: 768px) {
+    .subPart {
+      flex-direction:column;
+      align-items: center; /* Center the items vertically */
+    }
+  
+    .leftHead {
+      font-size: 2.5rem; /* Adjust font size */
+      width: 90%; /* Allow text to take up more width */
+      text-align: center;
+    }
+  
+    .leftPara {
+      font-size: 1.4rem; /* Adjust font size for better readability */
+      width: 90%; /* Allow text to take up more width */
+      text-align: center;
+    }
+  
+    .webTransparentImage {
+      height: 350px;
+      width: 350px; /* Resize the image for tablet */
+      margin-left: 0;
+    }
+  
+    .bookDemo {
+      width: 100%; /* Make the button span the entire width */
+      padding: 1rem 2rem;
+    }
+  }
+  
+  /* Responsive Styles for Small Screens (Mobile) */
+  @media (max-width: 480px) {
+    .Services {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    .subPart {
+      flex-direction: column;
+      align-items: center; /* Stack items vertically */
+    }
+  
+    .leftHead {
+      font-size: 2rem; /* Adjust font size for mobile */
+      width: 90%; /* Text takes up more space */
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    .leftPara {
+      font-size: 1rem; /* Adjust font size for readability */
+      width: 90%;
+      text-align: center;
+      margin-bottom: 1rem;
+    //   font-weight:500px;
+      color:black;
+    }
+  
+    .bookDemo {
+      width: 100%;
+      padding: 1rem 2rem;
+      font-size: 1.1rem; /* Adjust font size for mobile buttons */
+    }
+  
+    .webTransparentImage {
+      height: 250px;
+      width: 250px; /* Resize the image for mobile */
+      margin-left: 0;
+      margin-top: 20px; /* Add margin to separate image from text */
+    }
+  }
+  
+  @media (min-width: 350px) {
+    .Services {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      // max-width:1000px;
+      // color:red;
+    }
+  
+    .subPart {
+      flex-direction: column;
+      align-items: center; /* Stack items vertically */
+    }
+  
+    .leftHead {
+      font-size: 2rem; /* Adjust font size for mobile */
+      width: 82%; /* Text takes up more space */
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    .leftPara {
+      font-size: 1rem; /* Adjust font size for readability */
+      width: 83%;
+      text-align: center;
+      margin-bottom: 1rem;
+    //   font-weight:500px;
+      color:black;
+    }
+  
+    .bookDemo {
+      width: 100%;
+      padding: 1rem 2rem;
+      font-size: 1.1rem; /* Adjust font size for mobile buttons */
+    }
+  
+    .webTransparentImage {
+      height: 250px;
+      width: 250px; /* Resize the image for mobile */
+      margin-left: 0;
+      margin-top: 20px; /* Add margin to separate image from text */
+      // display:none;
+    }
+  }
+  
